@@ -6,3 +6,8 @@ func Rectangle(l int, b int) (area int, parameter int) {
 
 	return
 }
+
+func PassingAddress(a *int, t *string) {
+	*a = *a + 5 // `*` to point the address
+	*t = *t + " Doe"
+}
