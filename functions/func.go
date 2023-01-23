@@ -31,3 +31,25 @@ func AnonymousFunc() {
 		}(81),
 	)
 }
+
+// Note: Closures are a special case of anonymous functions.
+// Closures are anonymous functions which access the variables defined outside the body of the function.
+
+func ClosuresArea() {
+	l := 20
+	b := 30
+
+	func() {
+		area := l * b
+		fmt.Println("Closures Area: ", area)
+	}()
+}
+
+func ClosuresLoop() {
+	for i := 10.0; i < 100; i += 10.0 {
+		rad := func() float64 {
+			return i * 39.370
+		}()
+		fmt.Printf("%.2f Meter = %.2f Inch\n", i, rad)
+	}
+}

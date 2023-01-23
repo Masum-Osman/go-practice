@@ -19,4 +19,6 @@ func main() {
 	fmt.Println("After: ", name, age)
 
 	f.AnonymousFunc()
+	f.ClosuresArea()
+	f.ClosuresLoop()
 }
