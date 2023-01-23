@@ -18,4 +18,5 @@ func main() {
 
 	fmt.Println("After: ", name, age)
 
+	f.AnonymousFunc()
 }
