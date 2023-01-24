@@ -136,3 +136,13 @@ func VariadicDiffTypesOfParams(i ...interface{}) {
 		fmt.Println(v, " -- ", reflect.ValueOf(v).Kind())
 	}
 }
+
+/*
+	Deferred Function
+*/
+func DeferrendFmtPrint() {
+	for i := 0; i < 5; i++ {
+		// as deferred, functions are executed in LIFO order, so the above code prints: 4 3 2 1 0.
+		defer fmt.Printf("%d ", i)
+	}
+}

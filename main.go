@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	f "go-practice/functions"
+	pr "go-practice/panic_recover"
 )
 
 func main() {
@@ -34,4 +35,11 @@ func main() {
 	fmt.Println(f.AreaCalculation("Rectangle", 20, 30))
 	f.VariadicDiffTypesOfParams(1, "red", true, 10.5, []string{"foo", "bar", "baz"},
 		map[string]int{"apple": 23, "tomato": 13})
+
+	f.DeferrendFmtPrint()
+
+	pr.PanicRecovery(5)
+	pr.PanicRecovery(0)
+	pr.PanicRecovery(2)
+	pr.PanicRecovery(3)
 }
