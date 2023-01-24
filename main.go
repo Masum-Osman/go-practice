@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	f "go-practice/functions"
+	i "go-practice/interfaces"
 	pr "go-practice/panic_recover"
 )
 
@@ -42,4 +43,6 @@ func main() {
 	pr.PanicRecovery(0)
 	pr.PanicRecovery(2)
 	pr.PanicRecovery(3)
+
+	i.RunInterface()
 }
