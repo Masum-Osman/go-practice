@@ -6,7 +6,6 @@ import (
 	gr "go-practice/goroutines"
 	i "go-practice/interfaces"
 	pr "go-practice/panic_recover"
-	"time"
 )
 
 func main() {
@@ -47,9 +46,5 @@ func main() {
 	pr.PanicRecovery(3)
 
 	i.RunInterface()
-
-	go gr.ResponseSize("https://www.golangprograms.com")
-	go gr.ResponseSize("https://coderwall.com")
-	go gr.ResponseSize("https://stackoverflow.com")
-	time.Sleep(5 * time.Second)
+	gr.UseGoRoutineWithWG()
 }
