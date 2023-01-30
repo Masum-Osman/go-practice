@@ -27,6 +27,7 @@ func increment(name string) {
 	for range name {
 		atomic.AddInt32(&count, 1)
 		// count++
+		fmt.Println(count)
 		runtime.Gosched()
 	}
 }
