@@ -9,13 +9,14 @@ import (
 
 var wgroup sync.WaitGroup
 var count int32
+var mutex sync.Mutex
 
 func AtomicFunc() {
 	wgroup.Add(3)
 
-	go increment("Python")
-	go increment("Golang")
-	go increment("JavaScript")
+	go incrementInMutex("Python")
+	go incrementInMutex("Golang")
+	go incrementInMutex("JavaScript")
 
 	wgroup.Wait()
 	fmt.Println("Counter:", count)
@@ -29,6 +30,20 @@ func increment(name string) {
 		// count++
 		fmt.Println(count)
 		runtime.Gosched()
+	}
+}
+
+func incrementInMutex(lang string) {
+	defer wgroup.Done()
+
+	for k := 0; k < 3; k++ {
+		mutex.Lock()
+		{
+			fmt.Println(lang)
+			count++
+			fmt.Println(count)
+		}
+		mutex.Unlock()
 	}
 }
 
