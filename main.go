@@ -4,8 +4,6 @@ import (
 	"fmt"
 	f "go-practice/functions"
 	gr "go-practice/goroutines"
-	i "go-practice/interfaces"
-	pr "go-practice/panic_recover"
 )
 
 func main() {
@@ -21,30 +19,31 @@ func main() {
 
 	fmt.Println("After: ", name, age)
 
-	f.AnonymousFunc()
-	f.ClosuresArea()
-	f.ClosuresLoop()
+	// f.AnonymousFunc()
+	// f.ClosuresArea()
+	// f.ClosuresLoop()
 
-	partial := f.HigherOrderSum(100)
-	fmt.Println(partial(50))
+	// partial := f.HigherOrderSum(100)
+	// fmt.Println(partial(50))
 
-	f.HigherOrderFuncAsParameter()
-	squareSum := f.SquareSum(5)(6)(7)
-	fmt.Println(squareSum)
+	// f.HigherOrderFuncAsParameter()
+	// squareSum := f.SquareSum(5)(6)(7)
+	// fmt.Println(squareSum)
 
-	f.VariadicExample("red", "blue", "green", "yellow")
-	fmt.Println(f.AreaCalculation("Square", 20))
-	fmt.Println(f.AreaCalculation("Rectangle", 20, 30))
-	f.VariadicDiffTypesOfParams(1, "red", true, 10.5, []string{"foo", "bar", "baz"},
-		map[string]int{"apple": 23, "tomato": 13})
+	// f.VariadicExample("red", "blue", "green", "yellow")
+	// fmt.Println(f.AreaCalculation("Square", 20))
+	// fmt.Println(f.AreaCalculation("Rectangle", 20, 30))
+	// f.VariadicDiffTypesOfParams(1, "red", true, 10.5, []string{"foo", "bar", "baz"},
+	// 	map[string]int{"apple": 23, "tomato": 13})
 
-	f.DeferrendFmtPrint()
+	// f.DeferrendFmtPrint()
 
-	pr.PanicRecovery(5)
-	pr.PanicRecovery(0)
-	pr.PanicRecovery(2)
-	pr.PanicRecovery(3)
+	// pr.PanicRecovery(5)
+	// pr.PanicRecovery(0)
+	// pr.PanicRecovery(2)
+	// pr.PanicRecovery(3)
 
-	i.RunInterface()
-	gr.UseGoRoutineWithWG()
+	// i.RunInterface()s
+	// gr.UseGoRoutineWithWG()
+	gr.PlayPauseRoutine()
 }
