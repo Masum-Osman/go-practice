@@ -45,5 +45,6 @@ func main() {
 
 	// i.RunInterface()s
 	// gr.UseGoRoutineWithWG()
-	gr.PlayPauseRoutine()
+	// gr.PlayPauseRoutine()
+	gr.AtomicFunc()
 }
