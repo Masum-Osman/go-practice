@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	f "go-practice/functions"
-	gr "go-practice/goroutines"
+	log "go-practice/logs"
 )
 
 func main() {
@@ -47,5 +47,7 @@ func main() {
 	// gr.UseGoRoutineWithWG()
 	// gr.PlayPauseRoutine()
 	// gr.AtomicFunc()
-	gr.RunChannels()
+	// gr.RunChannels()
+
+	log.RunTrialLogs()
 }
