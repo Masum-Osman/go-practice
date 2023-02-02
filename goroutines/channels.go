@@ -30,6 +30,7 @@ func RunChannels() {
 }
 
 func employee(projects chan string, employee int) {
+	fmt.Println("1st line: ---", projects, employee)
 	defer gr.Done()
 
 	for {
