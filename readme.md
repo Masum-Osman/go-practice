@@ -35,13 +35,13 @@ Here are some ideas to get you started:
   - **📋 Reporting toolkits:** • [RDLC](https://docs.fileformat.com/reporting/rdlc/#:~:text=(.rdlc)%20Files-,What%20is%20an%20RDLC%20file%3F,used%20to%20create%20these%20files.) • [Dev Express Xtra Reporting](https://docs.devexpress.com/XtraReports/2162/reporting) • [Telerik Reporting](https://www.telerik.com/products/reporting.aspx) -->
 - 🗄️ **Back-end:**
   - **📜 Languages:** • `🧙🏻‍♂️ Golang, NodeJS, Python, PHP`
-  - **🔭 Frameworks:** • [ASP.NET Web API](https://dotnet.microsoft.com/en-us/apps/aspnet/apis)
-  - **💾 Databases:** • [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-2019) • [MongoDB](https://www.mongodb.com/) • [LiteDB](https://www.litedb.org/) • [SQLite](https://www.sqlite.org/index.html)
+  - **🔭 Frameworks:** • [Beego](https://beego.vip/) • [ExpressJS](https://expressjs.com/) • [Gin](https://gin-gonic.com/) • [Flask](https://flask.palletsprojects.com/en/2.2.x/)
+  - **💾 Databases:** • [MySQL](https://www.mysql.com/) • [MongoDB](https://www.mongodb.com/) • [Redis](https://redis.io/) • [InfluxDB](https://influx.com/) • [Neo4j](https://neo4j.com/)
   - **🎛 System architecture:** • [Monolithic](https://microservices.io/patterns/monolithic.html) • [Microservices](https://microservices.io/patterns/microservices.html)
   - **🔌 Communication protocols:** • [REST](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design) • [SignalR](https://dotnet.microsoft.com/en-us/apps/aspnet/signalr) • [RabbitMQ](https://www.rabbitmq.com/) • [TCP/IP](https://www.techtarget.com/searchnetworking/definition/TCP-IP) • [Web Socket](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
 - 🎡 **Software development ecosystem:**
-  - **📁 Code repository:** • [Git](https://git-scm.com/) • [BitBucket](https://bitbucket.org/product) • [Azure DevOps Server](https://azure.microsoft.com/en-us/services/devops/server/)
-  - **🗃 Project management:** • [Jira Scrum Boards](https://www.atlassian.com/software/jira/features/scrum-boards) • [Azure Boards](https://azure.microsoft.com/en-us/services/devops/boards/)
+  - **📁 Code repository:** • [Github](https://github.com/) • [Gitlab](https://gitlab.com) 
+  - **🗃 Project management:** • [Jira Scrum Boards](https://www.atlassian.com/software/jira/features/scrum-boards) • [Trello](https://trello.com/) • [Redmine](https://www.redmine.org/)
   - **🗂 CI/CD:** • [IIS](https://www.iis.net/) • [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/) • [Github Actions](https://github.com/features/actions) • [Github Pages](https://pages.github.com/)
 - 🧙‍♂️ **Coding pattern & principles:**
   - **⚒ Patterns:**  • [Mediator](https://en.wikipedia.org/wiki/Mediator_pattern) • [Bridge](https://en.wikipedia.org/wiki/Bridge_pattern) • [CQRS](https://en.wikipedia.org/wiki/Command%E2%80%93query_separation#Command_Query_Responsibility_Separation) • [MVVM](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel) • [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) • [SAGA](https://microservices.io/patterns/data/saga.html) • [Event Sourcing](https://microservices.io/patterns/data/event-sourcing.html) • [Message Queuing](https://www.cloudamqp.com/blog/what-is-message-queuing.html)
