@@ -7,9 +7,9 @@ import (
 
 func nonAlphaQuote() {
 	str1 := "We @@@Love@@@@ #Go!$! ****Programming****Language^^^"
-
+	fmt.Println(str1)
 	re := regexp.MustCompile(`[^a-zA-Z0-9]+`)
-
+	fmt.Println(re)
 	fmt.Printf("Pattern: %v", re.String())
 	fmt.Println(re.MatchString(str1))
 

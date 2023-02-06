@@ -2,6 +2,7 @@ package main
 
 import (
 	file "go-practice/file"
+	rx "go-practice/regex"
 )
 
 func main() {
@@ -49,4 +50,5 @@ func main() {
 
 	// log.RunTrialLogs()
 	file.OperatingFiles()
+	rx.RunRegexPackage()
 }
