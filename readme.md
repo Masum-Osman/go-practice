@@ -1,11 +1,11 @@
 
-### Hi there 👋!
+<h1 align="center">Hi 👋, I'm Masum</h1>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=masum-osman&label=Profile%20views&color=0e75b6&style=flat" alt="masum-osman" /> </p>
 
-<!--
-**asadullahrifat89/asadullahrifat89** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<!-- **asadullahrifat89/asadullahrifat89** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
--->
+Here are some ideas to get you started: -->
+
 #### Who I am?
 - A `Software Engineer` || `Backend - GoLang` || `DevOps` || `Cloud Engineer - AWS` based in **[Dhaka](https://en.wikipedia.org/wiki/Dhaka), [Bangladesh](https://en.wikipedia.org/wiki/Bangladesh).** 
 - I have a special interest in **Backend API Design and development, Databases**, and also some **frontend** works. 
@@ -22,7 +22,7 @@ link: https://masum-osman.github.io/
 
 
 #### What I'm doing?
-- 🏢 Working at **[TRUCKLAGBE](https://trucklagbe.com/)** as a **Senior Software Engineer**.
+- 🏢 Working at **[TRUCK LAGBE](https://trucklagbe.com/)** as a **Software Engineer**.
 - 👨‍💻 Writing `Golang` `NodeJS` `Python` `PHP` `MySQL` `MongoDB`.
 - 🌍 Mostly active on <a href="https://www.linkedin.com/in/masumosman/"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" height=20></a> <!--[LinkedIn](https://www.linkedin.com/in/asadullah-rifat)--> .
 <!-- and the **.NET community** -->
@@ -34,14 +34,6 @@ link: https://masum-osman.github.io/
 - 💬 Ask me about `Programming` `System Design` `APIs` `Scalability` `Design Patterns` `Data Structures` `Coding speed hacks` `Clean code` `Requirement analysis` and `Tech culture`.
 
 #### What my skill set looks like?
-<!-- - 🖥 **Front-end:** 
-  - **📜 Languages:** • `🧙🏻 C# 11` • `👨‍🏭 XAML` • `👨‍🔧 JavaScript` • `🧚🏻‍♂️ HTML` • `👨🏻‍🎨 CSS`
-  - **🔬 Frameworks:**  
-    - **🖥 Desktop:** • [Uno Platform](https://platform.uno/) • [WinUI 3](https://docs.microsoft.com/en-us/windows/apps/winui/) • [WPF](https://docs.microsoft.com/en-us/dotnet/desktop/wpf/overview/?view=netdesktop-6.0) 
-    - **🌐 Web:** • [Blazor WASM](https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor) • [Uno WASM](https://platform.uno/uno-platform-for-web-webassembly/) • [Open Silver](https://opensilver.net/) • [ASP.NET MVC](https://dotnet.microsoft.com/en-us/apps/aspnet/mvc)
-    - **📱 Mobile:** • [Xamarin](https://dotnet.microsoft.com/en-us/apps/xamarin) • [.NET MAUI](https://docs.microsoft.com/en-us/dotnet/maui/what-is-maui) • [Uno Platform](https://platform.uno/uno-platform-for-ios-and-android/)
-  - **🗳 UI toolkits:** • [Telerik](https://www.telerik.com/) • [Dev Express](https://www.devexpress.com/) • [MudBlazor](https://mudblazor.com/)
-  - **📋 Reporting toolkits:** • [RDLC](https://docs.fileformat.com/reporting/rdlc/#:~:text=(.rdlc)%20Files-,What%20is%20an%20RDLC%20file%3F,used%20to%20create%20these%20files.) • [Dev Express Xtra Reporting](https://docs.devexpress.com/XtraReports/2162/reporting) • [Telerik Reporting](https://www.telerik.com/products/reporting.aspx) -->
 - 🗄️ **Back-end:**
   - **📜 Languages:** • `🧙🏻‍♂️ Golang, NodeJS, Python, PHP`
   - **🔭 Frameworks:** • [Beego](https://beego.vip/) • [ExpressJS](https://expressjs.com/) • [Gin](https://gin-gonic.com/) • [Flask](https://flask.palletsprojects.com/en/2.2.x/)
@@ -55,7 +47,16 @@ link: https://masum-osman.github.io/
 - 🧙‍♂️ **Coding pattern & principles:**
   - **⚒ Patterns:**  • [Mediator](https://en.wikipedia.org/wiki/Mediator_pattern) • [Bridge](https://en.wikipedia.org/wiki/Bridge_pattern) • [CQRS](https://en.wikipedia.org/wiki/Command%E2%80%93query_separation#Command_Query_Responsibility_Separation) • [MVVM](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel) • [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) • [SAGA](https://microservices.io/patterns/data/saga.html) • [Event Sourcing](https://microservices.io/patterns/data/event-sourcing.html) • [Message Queuing](https://www.cloudamqp.com/blog/what-is-message-queuing.html)
   - **🗜 Principles:** • [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself#:~:text=%22Don%27t%20repeat%20yourself%22,data%20normalization%20to%20avoid%20redundancy.) • [ACID](https://en.wikipedia.org/wiki/ACID) • [DDD](https://en.wikipedia.org/wiki/Domain-driven_design) • [SOLID](https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)
-  - **🕹 Frameworks:** • [.NET 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) • [.NET Core 3.1](https://dotnet.microsoft.com/en-us/download/dotnet/3.1) • [.NET Standard 2.0](https://docs.microsoft.com/en-us/dotnet/standard/net-standard?tabs=net-standard-1-0) • [.NET Framework 4.8](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48) • [Entity Framework](https://docs.microsoft.com/en-us/ef/)
+
+
+<!-- - 🖥 **Front-end:** 
+  - **📜 Languages:** • `🧙🏻 C# 11` • `👨‍🏭 XAML` • `👨‍🔧 JavaScript` • `🧚🏻‍♂️ HTML` • `👨🏻‍🎨 CSS`
+  - **🔬 Frameworks:**  
+    - **🖥 Desktop:** • [Uno Platform](https://platform.uno/) • [WinUI 3](https://docs.microsoft.com/en-us/windows/apps/winui/) • [WPF](https://docs.microsoft.com/en-us/dotnet/desktop/wpf/overview/?view=netdesktop-6.0) 
+    - **🌐 Web:** • [Blazor WASM](https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor) • [Uno WASM](https://platform.uno/uno-platform-for-web-webassembly/) • [Open Silver](https://opensilver.net/) • [ASP.NET MVC](https://dotnet.microsoft.com/en-us/apps/aspnet/mvc)
+    - **📱 Mobile:** • [Xamarin](https://dotnet.microsoft.com/en-us/apps/xamarin) • [.NET MAUI](https://docs.microsoft.com/en-us/dotnet/maui/what-is-maui) • [Uno Platform](https://platform.uno/uno-platform-for-ios-and-android/)
+  - **🗳 UI toolkits:** • [Telerik](https://www.telerik.com/) • [Dev Express](https://www.devexpress.com/) • [MudBlazor](https://mudblazor.com/)
+  - **📋 Reporting toolkits:** • [RDLC](https://docs.fileformat.com/reporting/rdlc/#:~:text=(.rdlc)%20Files-,What%20is%20an%20RDLC%20file%3F,used%20to%20create%20these%20files.) • [Dev Express Xtra Reporting](https://docs.devexpress.com/XtraReports/2162/reporting) • [Telerik Reporting](https://www.telerik.com/products/reporting.aspx) -->
   
 - **🏗️ Code editors:**
  <a href="https://code.visualstudio.com/"><img src="https://seeklogo.com/images/V/visual-studio-code-logo-449D71944F-seeklogo.com.png" height=25></a>
@@ -68,12 +69,9 @@ link: https://masum-osman.github.io/
   - 😅 I just can't **resist the urge** to **explore** a new **tech** released in the **.NET** ecosystem.
 
 <!--Github Stats-->
-<p float="left">
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=asadullahrifat89" /> 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=asadullahrifat89"/>
-</p>
 
-#### What companies have I worked for?
+
+<!-- #### What companies have I worked for?
 <p left="center">
   <a href="https://selisegroup.com/">
     <img src="https://selisegroup.com/wp-content/uploads/2020/11/SELISE-DIgital-Platforms-.png" height=50>
@@ -87,13 +85,12 @@ link: https://masum-osman.github.io/
   <a href="https://www.celimited.com/">
     <img src="https://celimited.com/wp-content/uploads/2022/11/logo.png" height=50 width=250>
   </a>
-</p>
+</p> -->
 
 #### What are my recent highlights?
-- [featured-a-space-shooter-game-on-the-web-with-c#-wasm-on-blogs-uno-platform](https://platform.uno/blog/a-space-shooter-game-on-the-web-with-c-wasm-and-uno-platform/)
-- [featured-photot-editor-on-linkedin-uno-platform](https://www.linkedin.com/posts/uno-platform_its-always-such-a-pleasure-to-see-what-our-activity-6963517756608495616-vfbo?utm_source=linkedin_share&utm_medium=member_desktop_web)
-- [featured-article-on-2d-web-games-on-twitter-wasm-weekly](https://twitter.com/WasmWeekly/status/1560266404171231232)
-- [honored-with-dragon-award-by-selise-digital-platforms](https://www.linkedin.com/posts/asadullah-rifat_people-tech-culture-activity-6962505193817071616-ymfj?utm_source=linkedin_share&utm_medium=member_desktop_web)
+- [Included Redis to minimize cost on GCP(GCS) per operation](https://blog.devops.dev/included-redis-to-minimize-huge-cost-on-gcp-gcs-per-hit-e64112fe5f75)
+- [Ensuring High Availability —Infrastructures Design](https://medium.datadriveninvestor.com/ensuring-high-availability-infrastructures-design-9cfe1bce27ae)
+- [Minimal Best Practices for Creating a well-designed API](https://masum26.medium.com/minimal-best-practices-for-creating-a-well-designed-api-28e2e37a39)
 
 <!--
 #### How to get in touch with me?
@@ -112,26 +109,7 @@ link: https://masum-osman.github.io/
 </a>
 </p>
 -->
-<h1 align="center">Hi 👋, I'm Masum</h1>
-<h3 align="center">A Software Engineer 👨‍💻 Backend Spirited. DevOps Hobbyist.</h3>
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=masum-osman&label=Profile%20views&color=0e75b6&style=flat" alt="masum-osman" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=masum-osman" alt="masum-osman" /></a> </p>
-
-- 🔭 I’m currently working on **Truck Lagbe Inc.**
-
-- 🌱 I’m currently learning **Rust, Erlang, Docker**
-
-- 📝 I regularly write articles on [https://masum26.medium.com/](https://masum26.medium.com/)
-
-- 💬 Ask me about **NodeJS. JavaScript, MySQL, NGINX, ReST API, HTTP Protocols, Proxys**
-
-- 📫 How to reach me **osmanmasum.cs@gmail.com**
-
-- 📄 Know about my experiences [https://drive.google.com/file/d/19PJN8kg3H9wTsdyuMwgBeewL1IilSfHl/view?usp=sharing](https://drive.google.com/file/d/19PJN8kg3H9wTsdyuMwgBeewL1IilSfHl/view?usp=sharing)
-
-### Blogs posts
+<!-- ### Blogs posts -->
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
 
@@ -150,8 +128,10 @@ link: https://masum-osman.github.io/
 <a href="https://www.hackerearth.com/@ogkmasum" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerearth.svg" alt="@ogkmasum" height="30" width="40" /></a>
 </p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=masum-osman&show_icons=true&locale=en" alt="masum-osman" /></p>
 
+
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=masum-osman" alt="masum-osman" /></a>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=masum-osman&show_icons=true&locale=en" alt="masum-osman" /></p>
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=masum-osman&" alt="masum-osman" /></p>
 
 

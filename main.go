@@ -1,8 +1,7 @@
 package main
 
 import (
-	file "go-practice/file"
-	rx "go-practice/regex"
+	cprt "go-practice/crypto"
 )
 
 func main() {
@@ -49,6 +48,7 @@ func main() {
 	// gr.RunChannels()
 
 	// log.RunTrialLogs()
-	file.OperatingFiles()
-	rx.RunRegexPackage()
+	// file.OperatingFiles()
+	// rx.RunRegexPackage()
+	cprt.SHApractices()
 }
