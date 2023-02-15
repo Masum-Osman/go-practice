@@ -50,5 +50,6 @@ func main() {
 	// log.RunTrialLogs()
 	// file.OperatingFiles()
 	// rx.RunRegexPackage()
-	cprt.SHApractices()
+	// cprt.SHApractices()
+	cprt.Hmac()
 }
