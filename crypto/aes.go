@@ -41,6 +41,20 @@ func encryption(plainText string) {
 
 }
 
+func decryption() []byte {
+
+	bytes, err := ioutil.ReadFile(fmt.Sprintf(encryptedFile))
+	if err != nil {
+		log.Fatalf("Reading encrypted file: %s", err)
+	}
+
+	blockCipher := createCipher()
+	stream := cipher.NewCTR(blockCipher, IV)
+	stream.XORKeyStream(bytes, bytes)
+
+	return bytes
+}
+
 func createCipher() cipher.Block {
 
 	c, err := aes.NewCipher(aesKey())

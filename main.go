@@ -51,5 +51,5 @@ func main() {
 	// file.OperatingFiles()
 	// rx.RunRegexPackage()
 	// cprt.SHApractices()
-	cprt.Hmac()
+	cprt.RunAES()
 }
