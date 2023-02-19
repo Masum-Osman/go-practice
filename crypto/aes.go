@@ -70,7 +70,7 @@ func aesKey() []byte {
 	file := fmt.Sprintf(keyFile)
 	key, err := readKey(file)
 	if err != nil {
-		log.Panicln("Creating a new AES key")
+		log.Panicln("Creating a new AES key", err)
 		key = createKey()
 		saveKey(file, key)
 	}
