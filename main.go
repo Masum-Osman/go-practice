@@ -1,7 +1,7 @@
 package main
 
 import (
-	cprt "go-practice/crypto"
+	gr "go-practice/goroutines"
 )
 
 func main() {
@@ -51,5 +51,6 @@ func main() {
 	// file.OperatingFiles()
 	// rx.RunRegexPackage()
 	// cprt.SHApractices()
-	cprt.RunAES()
+	// cprt.RunAES()
+	gr.RoutineSenderReceiver()
 }
