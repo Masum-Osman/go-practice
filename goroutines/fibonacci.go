@@ -22,7 +22,7 @@ func fibonacci(ch chan int, quit chan bool) {
 	x, y := 0, 1
 	for {
 		select {
-		case ch <- y:
+		case ch <- x:
 			x, y = y, x+y
 		case <-quit:
 			fmt.Println("quit")

@@ -1,7 +1,7 @@
 package main
 
 import (
-	gr "go-practice/goroutines"
+	hlw "go-practice/helloworld"
 )
 
 func main() {
@@ -52,5 +52,6 @@ func main() {
 	// rx.RunRegexPackage()
 	// cprt.SHApractices()
 	// cprt.RunAES()
-	gr.FibonacciRoutine()
+	// gr.FibonacciRoutine()
+	hlw.Hello()
 }
