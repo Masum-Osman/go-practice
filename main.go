@@ -52,5 +52,5 @@ func main() {
 	// rx.RunRegexPackage()
 	// cprt.SHApractices()
 	// cprt.RunAES()
-	gr.RoutineSenderReceiver()
+	gr.FibonacciRoutine()
 }
