@@ -9,7 +9,6 @@ func FibonacciRoutine() {
 
 	go func(n int) {
 		for i := 0; i < n; i++ {
-			fmt.Println("INSIDE: ", i)
 			fmt.Println("FROM CHANNEL: ", <-ch)
 		}
 		quit <- false
