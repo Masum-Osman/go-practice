@@ -35,3 +35,20 @@ func AllUpperCase(s string) bool {
 func IfContains(w, l string) bool {
 	return strings.Contains(w, l)
 }
+
+func DefangIPaddr(addr string) string {
+	return strings.Replace(addr, ".", "[.]", -1)
+}
+
+func FinalValueAfterOperations(operations []string) int {
+	x := 0
+
+	for _, i := range operations {
+		if i == "++X" || i == "X++" {
+			x++
+		} else if i == "--X" || i == "X--" {
+			x--
+		}
+	}
+	return x
+}

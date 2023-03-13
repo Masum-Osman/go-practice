@@ -78,3 +78,64 @@ func TestString(t *testing.T) {
 	})
 
 }
+
+func TestDefangIPaddr(t *testing.T) {
+	t.Run("1108. Defanging an IP Address: ", func(t *testing.T) {
+		type defangTestCases struct {
+			param  string
+			result string
+		}
+
+		cases := []defangTestCases{
+			{"1.1.1.1", "1[.]1[.]1[.]1"},
+			{"255.100.50.0", "255[.]100[.]50[.]0"},
+		}
+
+		for _, tc := range cases {
+			got := DefangIPaddr(tc.param)
+
+			t.Logf("Got : %s, Wanted : %s", got, tc.result)
+
+			if tc.result != got {
+				t.Errorf("Got : %s, Wanted : %s", got, tc.result)
+			}
+		}
+	})
+}
+
+func TestFinalValue(t *testing.T) {
+	t.Run("2011. Final Value of Variable After Performing Operations", func(t *testing.T) {
+
+		/*
+			WILL LEARN LATER:
+
+			cases := []testCases{
+				{[3]["--X","X++","X++"], 1},
+			}
+		*/
+
+		type testCases struct {
+			ops    []string
+			result int32
+		}
+
+		cases := []testCases{
+			{[]string{"++X", "++X", "X++"}, 3},
+			{[]string{"--X", "X++", "X++"}, 1},
+			{[]string{"X++", "++X", "--X", "X--"}, 0},
+		}
+
+		// operation := []string{"++X", "++X", "X++"}
+		// want := 3
+
+		for _, tc := range cases {
+			got := FinalValueAfterOperations(tc.ops)
+			t.Log(got)
+
+			if int(tc.result) != got {
+				t.Errorf("Got : %d, Wanted : %d", got, int(tc.result))
+			}
+		}
+
+	})
+}
