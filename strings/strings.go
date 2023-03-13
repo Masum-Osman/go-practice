@@ -31,3 +31,7 @@ func AllUpperCase(s string) bool {
 	}
 	return true
 }
+
+func IfContains(w, l string) bool {
+	return strings.Contains(w, l)
+}
