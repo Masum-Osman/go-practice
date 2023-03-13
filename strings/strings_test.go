@@ -106,14 +106,6 @@ func TestDefangIPaddr(t *testing.T) {
 func TestFinalValue(t *testing.T) {
 	t.Run("2011. Final Value of Variable After Performing Operations", func(t *testing.T) {
 
-		/*
-			WILL LEARN LATER:
-
-			cases := []testCases{
-				{[3]["--X","X++","X++"], 1},
-			}
-		*/
-
 		type testCases struct {
 			ops    []string
 			result int32
@@ -124,9 +116,6 @@ func TestFinalValue(t *testing.T) {
 			{[]string{"--X", "X++", "X++"}, 1},
 			{[]string{"X++", "++X", "--X", "X--"}, 0},
 		}
-
-		// operation := []string{"++X", "++X", "X++"}
-		// want := 3
 
 		for _, tc := range cases {
 			got := FinalValueAfterOperations(tc.ops)
