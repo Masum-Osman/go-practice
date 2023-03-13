@@ -4,9 +4,9 @@ import "testing"
 
 func TestStringTrim(t *testing.T) {
 	got := TrimString()
-	want := 10
+	want := "Hello, World"
 
-	if got != 0 && want != 0 {
-		t.Errorf("Got : %d, Wanted : %d", got, want)
+	if got != want {
+		t.Errorf("Got : %s, Wanted : %s", got, want)
 	}
 }
