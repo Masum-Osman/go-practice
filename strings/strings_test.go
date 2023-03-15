@@ -128,3 +128,27 @@ func TestFinalValue(t *testing.T) {
 
 	})
 }
+
+func TestStringContainsCount(t *testing.T) {
+	t.Run("771. Jewels and Stones", func(t *testing.T) {
+		type testCases struct {
+			jewel  string
+			stones string
+			output int
+		}
+
+		cases := []testCases{
+			{"aAb", "aAAbbbb", 7},
+			{"z", "ZZ", 0},
+			{"aA", "aAAbbbb", 3},
+		}
+
+		for _, tc := range cases {
+			got := NumJewelsInStones(tc.jewel, tc.stones)
+
+			if tc.output != got {
+				t.Errorf("Got : %d, Wanted : %d", got, int(tc.output))
+			}
+		}
+	})
+}

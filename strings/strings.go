@@ -52,3 +52,18 @@ func FinalValueAfterOperations(operations []string) int {
 	}
 	return x
 }
+
+func NumJewelsInStones(jewels string, stones string) int {
+
+	count := 0
+
+	for i := 0; i < len(stones); i++ {
+		for j := 0; j < len(jewels); j++ {
+			if stones[i] == jewels[j] {
+				count++
+			}
+		}
+	}
+
+	return count
+}
