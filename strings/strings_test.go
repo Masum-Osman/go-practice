@@ -152,3 +152,26 @@ func TestStringContainsCount(t *testing.T) {
 		}
 	})
 }
+
+func TestMostWordsFound(t *testing.T) {
+
+	type testCases struct {
+		sentences []string
+		result    int
+	}
+
+	cases := []testCases{
+		{[]string{"alice and bob love leetcode", "i think so too", "this is great thanks very much"}, 6},
+		{[]string{"please wait", "continue to fight", "continue to win"}, 3},
+	}
+
+	for _, tc := range cases {
+		got := MostWordsFound(tc.sentences)
+		t.Log(got)
+
+		if tc.result != got {
+			t.Errorf("Got : %d, Wanted : %d", got, int(tc.result))
+		}
+	}
+
+}

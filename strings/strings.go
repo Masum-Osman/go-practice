@@ -67,3 +67,15 @@ func NumJewelsInStones(jewels string, stones string) int {
 
 	return count
 }
+
+func MostWordsFound(sentences []string) int {
+	wordCounter := 0
+
+	for _, r := range sentences {
+		splitted := strings.Split(r, " ")
+		if len(splitted) > wordCounter {
+			wordCounter = len(splitted)
+		}
+	}
+	return wordCounter
+}
