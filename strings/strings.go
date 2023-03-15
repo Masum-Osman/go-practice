@@ -79,3 +79,28 @@ func MostWordsFound(sentences []string) int {
 	}
 	return wordCounter
 }
+
+func Interpret(command string) string {
+	command = strings.Replace(command, "()", "o", -1)
+	command = strings.Replace(command, "(al)", "al", -1)
+
+	return command
+}
+
+func InterpretLoop(command string) string {
+	ans := ""
+
+	for i := 0; i < len(command); i++ {
+		if command[i] == 'G' {
+			ans = ans + "G"
+		} else if command[i] == '(' {
+			if command[i+1] == ')' {
+				ans = ans + "o"
+			} else if command[i+1] == 'a' {
+				ans = ans + "al"
+			}
+		}
+	}
+
+	return ans
+}

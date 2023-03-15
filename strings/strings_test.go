@@ -175,3 +175,24 @@ func TestMostWordsFound(t *testing.T) {
 	}
 
 }
+
+func TestInterpret(t *testing.T) {
+	type testCases struct {
+		command string
+		output  string
+	}
+
+	cases := []testCases{
+		{"G()(al)", "Goal"},
+		{"G()()()()(al)", "Gooooal"},
+		{"(al)G(al)()()G", "alGalooG"},
+	}
+
+	for _, tc := range cases {
+		got := InterpretLoop(tc.command)
+
+		if tc.output != got {
+			t.Errorf("Got : %s, Wanted : %s", got, tc.output)
+		}
+	}
+}
