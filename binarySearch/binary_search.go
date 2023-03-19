@@ -16,3 +16,15 @@ func Search(nums []int, target int) int {
 
 	return -1
 }
+
+func FirstBadVersion(n int) int {
+	left := 0
+	right := n
+	lastBadVersion := 1
+
+	for i := left; i < right; i++ {
+
+	}
+
+	return lastBadVersion
+}
