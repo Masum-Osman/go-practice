@@ -1,5 +1,7 @@
 package binarySearch
 
+import "fmt"
+
 func Search(nums []int, target int) int {
 	left := 0
 	right := len(nums)
@@ -17,14 +19,22 @@ func Search(nums []int, target int) int {
 	return -1
 }
 
-func FirstBadVersion(n int) int {
+func SearchInsert(nums []int, target int) int {
+
 	left := 0
-	right := n
-	lastBadVersion := 1
+	right := len(nums) - 1
 
 	for i := left; i < right; i++ {
+		mid := (left + right) / 2
+		fmt.Println("LEFT: ", left, "RIGHT: ", right, "\t", "MID: ", mid, "\t",
+			"NUMS[MIS]: ", nums[mid])
 
+		if nums[mid] >= target {
+			right = mid
+			// return mid
+		} else {
+			left = mid + 1
+		}
 	}
-
-	return lastBadVersion
+	return left
 }
