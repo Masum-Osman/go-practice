@@ -37,11 +37,14 @@ func TestSearchInsert(t *testing.T) {
 		{[]int{1, 3, 5, 6}, 5, 2},
 		{[]int{1, 3, 5, 6}, 2, 1},
 		{[]int{1, 3, 5, 6}, 7, 4},
-		// {[]int{1, 2, 3, 4, 5, 10}, 2, 1},
+		{[]int{1, 2, 3, 4, 5, 10}, 2, 1},
+		{[]int{1, 2, 3, 4, 5, 10, 11}, 2, 1},
+		{[]int{1, 2, 3, 4, 5, 6}, 2, 1},
+		{[]int{1, 3, 5, 6}, 0, 0},
 	}
 
 	for _, tc := range cases {
-		got := SearchInsert(tc.nums, tc.target)
+		got := SearchInsertUpdated(tc.nums, tc.target)
 
 		t.Log(got)
 		if tc.result != got {
