@@ -196,3 +196,27 @@ func TestInterpret(t *testing.T) {
 		}
 	}
 }
+
+func TestValidParentheses(t *testing.T) {
+	type testCases struct {
+		input  string
+		output bool
+	}
+
+	cases := []testCases{
+		{"()", true},
+		{"()[]{}", true},
+		{"(]", false},
+		{"(({{()}}))(", false},
+		{"(({{()}}))", true},
+		{"(({{()}}))()", true},
+	}
+
+	for _, tc := range cases {
+		got := IsValidParentheses(tc.input)
+
+		if tc.output != got {
+			t.Errorf("Test Case: %s, Got : %t, Wanted : %t", tc.input, got, tc.output)
+		}
+	}
+}

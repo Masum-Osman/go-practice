@@ -104,3 +104,34 @@ func InterpretLoop(command string) string {
 
 	return ans
 }
+
+var STACK []string
+
+func stackLength() int {
+	return len(STACK)
+}
+
+func stackPush(val string) {
+	STACK = append(STACK, val)
+}
+
+func stackPop() {
+	STACK = STACK[:len(STACK)-1]
+}
+
+func IsValidParentheses(s string) bool {
+
+	for _, i := range s {
+		if i == '(' || i == '{' {
+			stackPush(string(i))
+		} else if i == ')' || i == '}' {
+			stackPop()
+		}
+	}
+
+	if stackLength() == 0 {
+		return true
+	} else {
+		return false
+	}
+}
