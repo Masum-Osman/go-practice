@@ -105,31 +105,49 @@ func InterpretLoop(command string) string {
 	return ans
 }
 
-var STACK []string
-
-func stackLength() int {
+func stackLength(STACK []string) int {
+	// fmt.Println("STACK: ", STACK, "len: ", len(STACK))
 	return len(STACK)
 }
 
-func stackPush(val string) {
-	STACK = append(STACK, val)
+func stackTop(STACK []string) string {
+	if stackLength(STACK) == 0 {
+		return "0"
+	} else {
+		return STACK[len(STACK)-1]
+	}
 }
 
-func stackPop() {
-	STACK = STACK[:len(STACK)-1]
-}
+// func stackPush(STACK []string, val string) {
+// 	STACK = append(STACK, val)
+// 	return
+// }
+
+// func stackPop(STACK []string) {
+// 	STACK = STACK[:len(STACK)-1]
+// }
 
 func IsValidParentheses(s string) bool {
 
+	var STACK []string
+
 	for _, i := range s {
-		if i == '(' || i == '{' {
-			stackPush(string(i))
-		} else if i == ')' || i == '}' {
-			stackPop()
+
+		if i == '(' || i == '{' || i == '[' {
+			// stackPush(STACK, string(i))
+			STACK = append(STACK, string(i))
+		} else {
+			top := stackTop(STACK)
+			if i == ')' && top == "(" ||
+				i == '}' && top == "{" ||
+				i == ']' && top == "[" {
+				STACK = STACK[:len(STACK)-1]
+				// stackPop(STACK)
+			}
 		}
 	}
 
-	if stackLength() == 0 {
+	if stackLength(STACK) == 0 {
 		return true
 	} else {
 		return false
