@@ -1,6 +1,7 @@
 package array
 
 import (
+	"fmt"
 	"testing"
 )
 
@@ -58,5 +59,35 @@ func TestContainsDuplicates(t *testing.T) {
 		if tc.result != got {
 			t.Error("Wanted: ", tc.result, " || Got: ", got)
 		}
+	}
+}
+
+func TestTwoDArray(t *testing.T) {
+	Travers2DArray()
+}
+
+func TestLinearSearchIn2DArray(t *testing.T) {
+
+	type testCases struct {
+		nums   [][]int
+		target int
+		result bool
+	}
+
+	cases := []testCases{
+		// {[][]int{{3, 12, 9}, {5, 2, 89}, {90, 45, 22}}, 89, true},
+		// {[][]int{{1, 4, 7, 11}, {2, 5, 8, 12}, {3, 6, 9, 16}, {10, 13, 14, 17}}, 2, true},
+		{[][]int{{1, 3, 5, 7}, {10, 11, 16, 20}, {23, 30, 34, 60}}, 5, true},
+		// {[][]int{{1, 3, 5, 7}, {10, 11, 16, 20}, {23, 30, 34, 60}}, 13, false},
+	}
+
+	for _, tc := range cases {
+		got := BinarySearchMatrix(tc.nums, tc.target)
+
+		if tc.result != got {
+			t.Error("Wanted: ", tc.result, " || Got: ", got)
+		}
+
+		fmt.Println(got)
 	}
 }
